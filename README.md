@@ -1,25 +1,8 @@
-### What is this?
-This `README.md` file is auto-created for all new projects.
+### What does the tool do?
+The 'firstf' file is used to search for a word or phrase, but only within the first number of lines specified. If there are 15 lines of code, and only 5 are requested, only 5 lines will be presented. It can be further modified by designating the 5 lines at the head of the script (first 5), or tail of the script (last 5). It prints the lines that match the request.
 
-### Why am I here?
-This file opens automatically when you open a project. 
+### How to run it.
+The file can be activated by a command like "node firstf.js fox grep_practice.txt 5", which will present the first 5 lines that include the word 'fox'. The command can be modified to fit other perameters.
 
-If you do not create Guides, this `README.md` will be what automatically opens for students. You can edit this file by clicking on the pencil icon in the upper right corner.
-
-### How do I get started with Codio?
-Use this [Onboarding Guide](https://codio.com/home/starter-packs/2ae8501b-e5f7-4b07-8e9f-adb155fc6d10) for an interactive tutorial through the main features of Codio. Click on the link, click **Use Pack** and then click **Create** to add it to your projects.
-
-### How do I close this file?
-At the top of your workspace you will see tabs for each open file. Click the x on the right hand side of the tab that says **README.md**.
-![readMeTab](https://global.codio.com/platform/readme.resources/readMeTab.png)
-
-### I expected to see or edit learning materials.
-Select **Tools->Guide->Play** to view the Guide for this project.
-![playGuide](https://global.codio.com/platform/readme.resources/playGuide.png)
-
-Click on the **Open Guides Editor** icon to edit the Guide.
-![guideEdit](https://global.codio.com/platform/readme.resources/guideEdit.png)
-
-### How do I delete this file?
-To delete this `README.md` file, right-click (ctrl-click on a Mac) on the file name in the file list.
-![fileTree](https://global.codio.com/platform/readme.resources/fileTree.png)
+### What commands it combines.
+The file 'firstfs' combines the functions of 'head' and 'grep'. 'head' will limit the search to the first 5 lines of code, while 'grep' will locate and designate lines of code that match the requested description (ie:fox) for printing. Together, the command will result in the first 5 lines of code that have the word "fox" in them.
